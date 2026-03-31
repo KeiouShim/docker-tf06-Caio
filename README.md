@@ -9,10 +9,19 @@ Repositório destinado ao laboratório de orquestração de containers com Nginx
 ## 📸 Evidências de Execução
 
 ### 1. Criação do Stack
-[COLE AQUI O TEXTO OU PRINT DO COMANDO UP]
+docker-compose up -d
 
 ### 2. Serviços Ativos (docker-compose ps)
-[COLE AQUI A TABELA DE STATUS]
+#1 [internal] load local bake definitions
+#1 reading from stdin 681B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 0.1s
+#2 transferring dockerfile: 2B 0.1s done
+#2 DONE 0.2s
+[+] up 0/1
+ - Image lab_compose_tf06-web Building
 
 ### 3. Teste de Ping (web -> cache)
-[COLE AQUI O RESULTADO DO PING]
+
